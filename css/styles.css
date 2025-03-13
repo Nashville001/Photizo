@@ -237,20 +237,20 @@ body {
     right: 50%;
   }
   .section-text h2 {
-    top: 17rem;
+    top: 40vh;
   }
   .section-text h1 {
-    top: 18rem;
+    top: 50vh;
     width: 70%;
     font-size: 1.5rem;
   }
   .section-text p {
-    top: 26rem;
+    top: 65vh;
     font-size: 0.65rem;
   }
   .section-text button {
     padding: 0.5rem 1rem;
-    top: 33rem;
+    top: 87vh;
     right: 10px;
   }
 }
@@ -260,6 +260,8 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 4;
+  width: 100vw;
+  padding: 1rem;
 }
 .speaker h2 {
   font-family: var(--font-neue);
